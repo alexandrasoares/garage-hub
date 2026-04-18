@@ -80,9 +80,6 @@ Content-Type: application/json
 2. Use o token nas requisições:
 httpAuthorization: Bearer <seu-token>
 
-📡 Endpoints Principais
-MétodoRotaDescriçãoAuthPOST/auth/loginAutenticação❌GET/clientesListar clientes✅POST/clientesCriar cliente✅GET/veiculosListar veículos✅POST/veiculosCadastrar veículo✅POST/ordens-servicoCriar OS✅GET/ordens-servico/:idConsultar OS❌PATCH/ordens-servico/:id/statusAtualizar status✅POST/ordens-servico/:id/aprovarAprovar orçamento❌GET/pecasListar peças/insumos✅POST/pecasCadastrar peça✅
-
 Documentação completa disponível no Swagger após subir o ambiente.
 
 
@@ -92,7 +89,9 @@ npm test
 
 # Executar com cobertura
 npm run test:coverage
+
 Cobertura mínima exigida: 80% nos domínios críticos.
+
 
 📚 Documentação DDD
 A documentação de Domain-Driven Design está disponível em:
@@ -107,6 +106,8 @@ ContextoResponsabilidadeAtendimentoGestão de clientes e veículosOrdem de Servi
 O relatório com análise de segurança e scan de vulnerabilidades está disponível em:
 docs/security-report.md
 
+👥 Equipe
+NomeDiscord[Nome do integrante]@username[Nome do integrante]@username[Nome do integrante]@username
+
 📄 Licença
-Este projeto foi desenvolvido para fins acadêmicos — Pós-Tech SOAT / FIAP.# garage-hub
-Central de gerenciamento de ordens de serviço, clientes, peças e operações de oficina.
+Este projeto foi desenvolvido para fins acadêmicos — Pós-Tech SOAT / FIAP.
